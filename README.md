@@ -66,7 +66,7 @@ cd Power-Trace-Prediction
 ### 2. Download the Dataset
 The dataset (raw data, processed `.pt` files, and results) is hosted externally.  
 
-- Download from: **[PASTE YOUR LINK HERE]**  
+- Download from: ****  
 - Unzip the archive.  
 - Place the `data/` and `results/` folders into the root of this repository.  
 
