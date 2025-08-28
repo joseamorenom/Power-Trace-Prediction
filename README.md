@@ -25,18 +25,13 @@ Power-Trace-Prediction/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── aes_original/           # Original 800-sample AES dataset
-│   │   └── sayid_tests/            # New test/retraining VCDs
-│   └── processed/
-│       └── processed_dataset_retrain/ # Preprocessed .pt files
+│   ├── processed/
+│   └── saved_models/
 │
 ├── results/
-│   ├── retrained_model/
-│   │   ├── best_model_retrain.pth  # Final trained model weights
-│   │   └── plots/                  # Visualization plots
-│   └── surprise_test_predictions/
-│       ├── prediction_trace_0.png  # Inference results
-│       └── prediction_trace_0.data
+│   ├── 5_results_visualization/
+│   ├── 6_results_visualization_cnn_lstm/
+│   ├── 7_results_visualization_diffusion/
 │
 ├── src/
 │   ├── utils.py             # Shared classes (Dataset, Model) and functions
@@ -66,7 +61,7 @@ cd Power-Trace-Prediction
 ### 2. Download the Dataset
 The dataset (raw data, processed `.pt` files, and results) is hosted externally.  
 
-- Download from: ****  
+- Download from: **https://drive.google.com/file/d/1twUniE9sRxVtX5n4e9_2FK_hQOmeTmbM/view?usp=sharing**  
 - Unzip the archive.  
 - Place the `data/` and `results/` folders into the root of this repository.  
 
